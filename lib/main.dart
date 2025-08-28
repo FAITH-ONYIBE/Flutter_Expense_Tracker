@@ -1,3 +1,4 @@
+import 'package:expense_tracker_app/pages/login_page.dart';
 import 'package:expense_tracker_app/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomeScreen(),
+      home: LoginPage(),
     );
   }
 }
